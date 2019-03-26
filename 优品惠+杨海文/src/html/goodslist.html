@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<script src="../lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/distpicker.data.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/distpicker.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/magnifier.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/goodslist.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/comm.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/homemian.css" />
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css" />
+		<link rel="stylesheet" type="text/css" href="../css/goodslist.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/magnifier.css" />
+	</head>
+
+	<body>
+		<!--顶部菜单-->
+		<div id="header">
+			<div class="nav_top con">
+				<div class="notice_scroll">
+					<span>公告&nbsp;:</span>
+					<ul class="show_notic">
+						<li>
+							<a>【紧急通知】关于短信发送异常的公告</a>
+						</li>
+						<li>
+							<a>【公告】防诈骗提醒</a>
+						</li>
+						<li>
+							<a>【紧急通知】关于短信发送异常的公告</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="denglu">
+					<li>
+						<span>
+							<a class='zhucel' href="###">注册</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a class='denglul' href="###">登录</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">我的订单</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">我的关注</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">资讯</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">品牌馆</a>
+						</span> |
+					</li>
+					<li class="yg_phone">
+						<span class="phone_in">
+							<a href="javascript:void(0);" id="_AD_head_app">
+								<i class="t">
+									<img src="../images/img/phone.png"  alt="手机惠买" title="惠买手机客户端二维码" width="9" height="12"/>
+								</i>
+								手机惠买
+							</a>
+						</span>
+						<div class="down_app">
+							<i class="t"></i>
+							<em class="sjx"></em>
+							<div class="app_erm">
+								<a href="javascript:void(0);">
+									<img alt="" title="" src="https://www.ugoshop.com/themes/ugo/images/2015/2015_public/ewm90X90.jpg" width="90" height="90">
+								</a>
+								<p>
+									<a href="javascript:void(0);">扫一扫哦~</a>
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部菜单结束-->
+
+		<!--头部{logo和搜索框}-->
+		<div id="header_logo">
+			<div class="header_logo con">
+				<!--logo部分-->
+				<div class="lbox">
+					<a href="###">
+						<img src="../images/img/logo.png" width="206px" height="75px" />
+					</a>
+				</div>
+				<!--搜索框-->
+				<div class="search fl">
+					<div class="sch clearfix">
+						<form target="_blank" method="get" action="/search.php" name="keyform">
+							<div class="fl">
+								<input type="text" class="sch_in" id="sch_in" name="keywords" value="惠人原汁机" onfocus="if(this.value!=''){this.value=''};" onblur="if(this.value==''||this.value=='请输入商品名称或货号'){this.value='请输入商品名称或货号';}">
+							</div>
+							<div class="fr">
+								<input type="button" class="sch_btn" onclick="document.keyform.submit()">
+							</div>
+						</form>
+					</div>
+				</div>
+				<!--二维码-->
+				<div class="download fr">
+					<img src="../images/img/top-app-download.png" />
+				</div>
+			</div>
+		</div>
+		<!--头部{logo和搜索框}结束-->
+
+		<!--导航-->
+		<div id="main_nav">
+			<div class="main_nav con">
+				<ul>
+					<li class="active">
+						<a href="homepage.html">首页</a>
+					</li>
+					<li>
+						<a href="###">视频</a>
+					</li>
+					<li>
+						<a href="###">品质厨房</a>
+					</li>
+					<li>
+						<a href="###">美食民生</a>
+					</li>
+					<li>
+						<a href="###">健康生活</a>
+					</li>
+					<li>
+						<a href="###">魅力穿戴</a>
+					</li>
+					<li>
+						<a href="###">珠宝收藏</a>
+					</li>
+					<li>
+						<a href="###">美肤靓装</a>
+					</li>
+					<li>
+						<a href="###">音乐之声</a>
+					</li>
+					<li id="navcat"><span></span></li>
+				</ul>
+				<div class="main_nav_menu">
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_03.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">品质厨房</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">厨房烹饪</a>
+							<a href="">厨房电器</a>
+							<a href="">餐饮用具</a>
+							<a href="">厨房配件</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_05.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">美食·民生</a>
+						</div>
+						<div class="kindsbot">
+							<a href="foodList.html">进口食品</a>
+							<a href="">营养保健</a>
+							<a href="">休闲食品</a>
+							<a href="">粮油干货</a>
+							<a href="">酒水茶饮</a>
+							<a href="">生鲜食品</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_07.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">健康生活</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">优质睡眠</a>
+							<a href="">收纳用品</a>
+							<a href="">生活用品</a>
+							<a href="">生活电器</a>
+							<a href="">装饰/家居</a>
+							<a href="">健身/户外</a>
+							<a href="">医疗器械</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_09.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">魅力穿戴</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">男装</a>
+							<a href="">女装</a>
+							<a href="">内衣</a>
+							<a href="">箱包</a>
+							<a href="">鞋子</a>
+							<a href="">配饰</a>
+							<a href="">户外鞋服</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_13.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">珠宝收藏</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">翡翠玉石</a>
+							<a href="">宝石珍珠</a>
+							<a href="">水晶玛瑙</a>
+							<a href="">时尚饰品</a>
+							<a href="">钟表</a>
+							<a href="">文化收藏</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_11.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">美肤靓装</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">面部护理</a>
+							<a href="">洗护护理</a>
+							<a href="">美容仪器</a>
+							<a href="">身体护理</a>
+							<a href="">钟彩妆香水</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航结束-->
+
+		<!--内容区-->
+		<div class="con main_main clearfix">
+			<!--当前位置-->
+			<div class="sh-crumbs">
+				当前位置：
+				<a href="###">首页</a>
+				<code>></code>
+				<a href="###">美食</a>
+				<code>></code>
+				<a href="###">滋补养生</a>
+				<code>></code>
+				<a href="###">基础营养</a>
+				<code>></code>
+				<a href="###">怀山堂 铁棍怀山粉健康·82条 </a>
+			</div>
+			<!--当前位置结束-->
+
+			<div class="sh-goods-key">
+				<!--放大镜-->
+				<div class="magnifier" id="magnifier1" style="float: left;">
+					<div class="magnifier-container">
+						<div class="images-cover"></div>
+						<!--当前图片显示容器-->
+						<div class="move-view"></div>
+						<!--跟随鼠标移动的盒子-->
+					</div>
+					<div class="magnifier-assembly">
+						<div class="magnifier-btn">
+							<span class="magnifier-btn-left">&lt;</span>
+							<span class="magnifier-btn-right">&gt;</span>
+						</div>
+						<!--按钮组-->
+						<div class="magnifier-line">
+							<ul class="clearfix animation03">
+								<li>
+									<div class="small-img">
+										<img id="small-img" src="../images/goodlist.jpg" />
+									</div>
+								</li>
+								<li>
+									<div class="small-img">
+										<img src="../images/goodslist1.jpg" />
+									</div>
+								</li>
+								<li>
+									<div class="small-img">
+										<img src="../images/goodslist2.jpg" />
+									</div>
+								</li>
+								<li>
+									<div class="small-img">
+										<img src="../images/goodslist1.jpg" />
+									</div>
+								</li>
+								<li>
+									<div class="small-img">
+										<img src="../images/goodslist1.jpg" />
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!--缩略图-->
+					</div>
+					<div class="magnifier-view"></div>
+					<!--经过放大的图片显示容器-->
+
+					<!--分享，关注-->
+					<div class="goodshare">
+						<div class="huohao fl">商品货号：523271_001</div>
+						<div class="share fr">
+							<i></i>
+							<span>分享</span>
+							<i></i>
+							<span>已关注</span>
+						</div>
+					</div>
+				</div>
+				<!--放大镜结束-->
+				<div class="goods-parameters fr">
+					<div class="brand clearfix">
+						<span class="country-brand">
+                        	<a target="_blank" alt="怀山堂" title="优品惠怀山堂" href="###">怀山堂</a>
+                    	</span>
+					</div>
+					<h1 class="title" id="title">怀山堂 铁棍怀山粉健康·82条</h1>
+					<p class="description">怀山堂82袋铁棍怀山粉有助于促进肠胃吸收建立肠胃保护膜、适合任何人群服用</p>
+					<div class="price-box">
+						<ul>
+							<li class="mb">
+								<span class="label price-label" data-attr="0" data-attrh="0">价格</span>
+								<span class="price" alt="" id="price"><i>￥</i>298</span>
+							</li>
+							<li class="yh">
+								<span class="label fl">优惠</span>
+								<div class="fr">
+									<p>
+										<span class="tag">包邮</span>
+										<span>订单金额满168元包邮</span>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="address">
+						<span class="label fl">送至：</span>
+						<div class="fr">
+							<div data-toggle="distpicker">
+								<select name="" id=""></select>
+								<select name="" id=""></select>
+								<select name="" id=""></select>
+							</div>
+						</div>
+						<input type="text" id="" value="" placeholder="详细地址" />
+					</div>
+					<div class="quantity">
+						<span class="label fl">数量：</span>
+						<div class="box fl">
+							<a href="###" id="lessBtn">-</a>
+							<input id="goodsNumberInput" type="text" value="1">
+							<a href="###" id="addBtn" class="fr">+</a>
+						</div>
+					</div>
+					<div class="addCart" id="addCart">
+						<i></i>加入购物车
+					</div>
+				</div>
+			</div>
+
+			<!--下面-->
+			<div class="sh-goods-declaration">
+				<img class="lazy-loading" src="../images/declaration2.jpg" data-original="/themes/ugo/images/2016/2016_goods/declaration02.png" style="display: block;">
+			</div>
+			<div class="sh-goods-details">
+				<div class="group">
+					<div class="related">
+						<div class="tab">
+							<div class="tab-select" id="tab-select">
+								<a class="active" href="#details" title="" data-scorll="details" id="xiangqin">商品详情</a>
+								<a href="#comments" title="" data-scorll="comments" id="comments">评论 
+									<span id="flcomments" style="color: #2766e3;">(10060)</span></a>
+								<a href="#services" title="" data-scorll="services" id="services">服务说明</a>
+							</div>
+						</div>
+						<div class="details" id = "details">
+							<h3 class="title"></h3>
+							<div><img src="../images/dog.PNG" alt="" /></div>
+							<div><img src="../images/优购80_01.jpg" alt="" /></div>
+							<div><img src="../images/优购80_02.jpg" alt="" /></div>
+							<div><img src="../images/优购80_03.jpg" alt="" /></div>
+							<div><img src="../images/优购80_05.jpg" alt="" /></div>
+							<div><img src="../images/优购80_01.jpg" alt="" /></div>
+						</div>
+						<div class="comment details" id="comment">
+							<h3 class="title"></h3>
+							<div class="comment-box">
+								<div class="inner-header">
+									<!--评论开始-->
+									<div class="select-comment">
+										<ul>
+											<li>
+												<div class="custom-radio">
+													<input type="radio" checked="checked" name="comment" value="all" id="all">
+													<label for="all" class="checked">
+														<i></i>
+														<span id="allifno">全部评论(10060)</span>
+													</label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-radio">
+													<input type="radio" checked="checked" name="comment" value="all" id="all">
+													<label for="all" class="checked">
+														<i></i>
+														<span id="allifno">好评(10038)</span>
+													</label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-radio">
+													<input type="radio" checked="checked" name="comment" value="all" id="all">
+													<label for="all" class="checked">
+														<i></i>
+														<span id="allifno">中评(17)</span>
+													</label>
+												</div>
+											</li>
+											<li>
+												<div class="custom-radio">
+													<input type="radio" checked="checked" name="comment" value="all" id="all">
+													<label for="all" class="checked">
+														<i></i>
+														<span id="allifno">差评(4)</span>
+													</label>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<!--评论结束-->
+									<div class="show-pic fr">
+										<div class="custom-checkbox">
+											<input type="checkbox" id="is-show-pic" value="show_pic" name="is-show-pic">
+											<label for="is-show-pic">
+												<i></i>
+												<span>有晒图</span>
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="comment-list-box">
+									<ul class="comment-list" id="comment-list">
+										<!--<li>
+											<div class="descrption">
+												<p class="text">
+													家人喜欢，味道好，怀山堂二次购买了。
+												</p>
+												<ul class="clearfix">
+													<li>
+														<i class="triangle-down"></i>
+														<img src="../images/comment-list.jpg" alt="" title="">
+													</li>
+												</ul>
+												<p class="datetime">2019-03-20 04:55:07</p>
+											</div>
+											<div class="attr fl">
+												<p>
+													&nbsp;
+												</p>
+												<p>
+													&nbsp;
+												</p>
+											</div>
+											<div class="author fl">
+												<span>134****9358</span>
+												<i class="comment-star comment-star-5"></i>
+											</div>
+										</li>-->
+									</ul>
+								</div>
+								<div class="page">
+									<a class="text" href="###">
+										<code class="code-r">&lt;</code>上一页
+									</a>
+									<a href="###" onclick="comment_pl(1)" class="p_num current">1</a>
+									<a href="###" onclick="comment_pl(1)" class="p_num current">2</a>
+									<a href="###" onclick="comment_pl(1)" class="p_num current">3</a>
+									<a class="text" href="###" onclick="comment_pl(&quot;2&quot;)">下一页<code class="code-l">&gt;</code></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="service" id ="service">
+							<h3 class="title"></h3>
+							<div><img src="../images/return_goods_des.png" alt="" /></div>
+							<div><img src="../images/price_explain.jpg" alt="" /></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--下面-->
+		</div>
+		<!--内容区结束-->
+
+		<!--右边浮动-->
+		<div class="sidebar-out"></div>
+		<div class="sidebar">
+			<ul class="bar-top">
+				<li class="fly-user">
+					<div id="_AD_right_my" class="user-c">
+						<a class="a-user-c a-sidebar"></a>
+						<div class="sidebarcom-hover">
+							<a class="closex"></a>
+							<div class="slide-login" id="left_user_info">
+								<a href="javascript:void(0);" class="slide-pic"><img alt="" src="../images/img/72x72.jpg" width="72" height="72"></a>
+								<p class="slide-login-btn">你好！请
+									<a rel="nofollow" href="###/">登录</a>|
+									<a href="###" rel="nofollow">注册</a>
+								</p>
+							</div>
+							<p class="slide-login-go">
+								<a href="###" class="a-mydd">我的订单</a>
+								<a href="###" class="a-myyhq">优惠券</a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="fly-care">
+					<div class="care-c" id="_AD_right_care">
+						<a class="a-care-c  a-sidebar"></a>
+						<p class="slide-hui">
+							<a href="###">我的关注</a>
+						</p>
+					</div>
+				</li>
+			</ul>
+			<ul class="bar-bot">
+				<li class="fly-car">
+					<div class="car-c" id="_AD_right_feedback">
+						<a class="a-car-c a-sidebar">
+							<p class="go_wu_che" style="background: red; width: 14px; height: 20px; color: white; display: block; float: right; text-align: center;">0</p>
+						</a>
+						
+					</div>
+				</li>
+				<li class="fly-code">
+					<div class="code-c">
+						<a class="a-code-c a-sidebar"></a>
+						<p class="code-pic">
+							<a href="###" target="_blank"><img alt="惠买手机APP" src="../images/img/code.jpg" width="132" height="182"></a>
+						</p>
+					</div>
+				</li>
+				<li class="fly-ask">
+					<div class="ask-c" id="_AD_right_feedback">
+						<a class="a-ask-c a-sidebar"></a>
+						<p class="slide-huib">
+							<a href="###">调查问卷</a>
+						</p>
+					</div>
+				</li>
+				<li class="fly-return">
+					<div class="return-c" id="_AD_right_top">
+						<a class="a-return-c a-sidebar"></a>
+						<p class="slide-hui">
+							<a>返回顶部</a>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--右边浮动结束-->
+		<!--尾部开始-->
+		<div class="footer">
+			<div class="footad">
+				<img src="../images/footer_ad.jpg" height="102" width="1000" alt="" />
+			</div>
+			<div class="con footer_flist">
+				<dl class="flistdl">
+					<dt>新手上路</dt>
+					<dd>
+						<a href="">新用户注册</a>
+					</dd>
+					<dd>
+						<a href="">忘记密码</a>
+					</dd>
+					<dd>
+						<a href="">购物流程</a>
+					</dd>
+				</dl>
+				<dl class="flistdl">
+					<dt>支付配送</dt>
+					<dd>
+						<a href="">货到付款</a>
+					</dd>
+					<dd>
+						<a href="">支付宝</a>
+					</dd>
+					<dd>
+						<a href="">配送方式</a>
+					</dd>
+				</dl>
+				<dl class="flistdl">
+					<dt>会员服务</dt>
+					<dd>
+						<a href="">服务承诺</a>
+					</dd>
+					<dd>
+						<a href="">会员制度</a>
+					</dd>
+					<dd>
+						<a href="">积分制度</a>
+					</dd>
+					<dd>
+						<a href="">退换货原则</a>
+					</dd>
+				</dl>
+				<dl class=" flistdl nob">
+					<dt>关于惠优品</dt>
+					<dd>
+						<a href="">企业介绍</a>
+					</dd>
+					<dd>
+						<a href="">联系我们</a>
+					</dd>
+					<dd>
+						<a href="">招商专区</a>
+					</dd>
+				</dl>
+				<dl class="flistdl2">
+					<dt class="fl">
+						<a target="_blank" href="###">
+							<img alt="" src="../images/foot_ewm.jpg" width="80" height="80">
+							<i class="font12">手机惠买</i>
+							<em class="font13">（优购物）</em>
+						</a>
+					</dt>
+					<dd class="fl f2f">
+						<img alt="" src="../images/foot_dh.jpg" width="149" height="38">
+					</dd>
+				</dl>
+			</div>
+			<div class="footerinfo">
+				<p class="footer-list">
+					<a target="_blank" href="###">首页</a> |
+					<a target="_blank">关于优品惠</a> |
+					<a target="_blank">优购物</a> |
+					<a target="_blank">联系我们</a> |
+					<a target="_blank">招贤纳士</a> |
+					<a target="_blank">招商专区</a> |
+					<a target="_blank">供应商入口</a> |
+					<a target="_blank">新人培训</a> |
+					<a target="_blank">友情链接</a> |
+					<a target="_blank">网站地图</a> |
+					<a target="_blank">资讯中心</a> |
+					<a target="_blank">评论</a> |
+					<a target="_blank"> 图片</a>
+				</p>
+				<div class="yqlink">
+					<p class="dlphh fl active">
+						<em>友情链接：</em>
+						<a target="_blank" href="###">配眼镜</a>
+						<a target="_blank" href="###">佐卡伊珠宝网</a>
+						<a target="_blank" href="###">腕表名表</a>
+						<a target="_blank" href="###">如何开网店</a>
+						<a target="_blank" href="###">免费试用</a>
+						<a target="_blank" href="###">钻戒网</a>
+					</p>
+					<div class="r_button fr">▲</div>
+				</div>
+				<p class="copyright">优品_惠买（优购物）全球优品特卖网站 专属于千万女性的优品特卖网站,优品_惠买（优购物）电视购物官方网站,100%正品保证 支持货到付款.</p>
+				<p class="copyright">Copyright©2007-2019 &nbsp; 公司名称:北京惠买网络科技有限公司 &nbsp; 公司地址:北京市北京经济技术开发区同济南路19号7幢2层C区 服务热线：400-707-0707</p>
+				<p class="footer-list copyright"> 统一社会信用代码:91110302339739621C &nbsp; ICP备案号:京ICP备15039150号-1 &nbsp; 食品流通许可证编号:JY11131010332635 &nbsp;
+					<a href="###" target="_blank">营业执照</a>
+					<a href="###" target="_blank">京网文(2017)10902-1271</a>
+					<a href="###" target="_blank">增值业务经营许可证：京B2-20181380 </a>
+				</p>
+				<div style="margin:0 auto;text-align:center;">
+					<a target="_blank" href="###" style="display:inline-block;text-decoration:none;height:22px;line-height:22px;">
+						<img src="../images/bei.png" style="float:left;">
+						<p style="float:left;margin: 0px 0px 0px 5px; color:#555; font-size: 12px; font-weight: 400;">京公网安备 11030102010023号</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--尾部结束-->
+
+	</body>
+
+</html>

@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<script src="../lib/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/homepage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/common.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css" />
+		<link rel="stylesheet" type="text/css" href="../css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="../css/homemian.css" />
+	</head>
+
+	<body>
+		<!--顶部菜单-->
+		<div id="header">
+			<div class="nav_top con">
+				<div class="notice_scroll">
+					<span>公告&nbsp;:</span>
+					<ul class="show_notic">
+						<li>
+							<a>【紧急通知】关于短信发送异常的公告</a>
+						</li>
+						<li>
+							<a>【公告】防诈骗提醒</a>
+						</li>
+						<li>
+							<a>【紧急通知】关于短信发送异常的公告</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="denglu">
+					<li>
+						<span>
+							<a class='zhucel' id = 'reg' href="reg.html">注册</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a class='denglul' id = 'login' href="login.html">登录</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">我的订单</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">我的关注</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">资讯</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">品牌馆</a>
+						</span> |
+					</li>
+					<li class="yg_phone">
+						<span class="phone_in">
+							<a href="javascript:void(0);" id="_AD_head_app">
+								<i class="t">
+									<img src="../images/img/phone.png"  alt="手机惠买" title="惠买手机客户端二维码" width="9" height="12"/>
+								</i>
+								手机惠买
+							</a>
+						</span>
+						<div class="down_app">
+							<i class="t"></i>
+							<em class="sjx"></em>
+							<div class="app_erm">
+								<a href="javascript:void(0);">
+									<img alt="" title="" src="https://www.ugoshop.com/themes/ugo/images/2015/2015_public/ewm90X90.jpg" width="90" height="90">
+								</a>
+								<p>
+									<a href="javascript:void(0);">扫一扫哦~</a>
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部菜单结束-->
+
+		<!--头部{logo和搜索框}-->
+		<div id="header_logo">
+			<div class="header_logo con">
+				<!--logo部分-->
+				<div class="lbox">
+					<a href="###">
+						<img src="../images/img/logo.png" width="206px" height="75px" />
+					</a>
+				</div>
+				<!--搜索框-->
+				<div class="search fl">
+					<div class="sch clearfix">
+						<form target="_blank" method="get" action="/search.php" name="keyform">
+							<div class="fl">
+								<input type="text" class="sch_in" id="sch_in" name="keywords" value="惠人原汁机" onfocus="if(this.value!=''){this.value=''};" onblur="if(this.value==''||this.value=='请输入商品名称或货号'){this.value='请输入商品名称或货号';}">
+							</div>
+							<div class="fr">
+								<input type="button" class="sch_btn" onclick="document.keyform.submit()">
+							</div>
+						</form>
+					</div>
+				</div>
+				<!--二维码-->
+				<div class="download fr">
+					<img src="../images/img/top-app-download.png" />
+				</div>
+			</div>
+		</div>
+		<!--头部{logo和搜索框}结束-->
+
+		<!--导航-->
+		<div id="main_nav">
+			<div class="main_nav con">
+				<ul>
+					<li class="active">
+						<a href="###">首页</a>
+					</li>
+					<li>
+						<a href="">视频</a>
+					</li>
+					<li>
+						<a href="###">品质厨房</a>
+					</li>
+					<li>
+						<a href="###">美食民生</a>
+					</li>
+					<li>
+						<a href="###">健康生活</a>
+					</li>
+					<li>
+						<a href="###">魅力穿戴</a>
+					</li>
+					<li>
+						<a href="###">珠宝收藏</a>
+					</li>
+					<li>
+						<a href="###">美肤靓装</a>
+					</li>
+					<li>
+						<a href="###">音乐之声</a>
+					</li>
+					<li id="navcat"><span></span></li>
+				</ul>
+				<div class="main_nav_menu">
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_03.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">品质厨房</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">厨房烹饪</a>
+							<a href="">厨房电器</a>
+							<a href="">餐饮用具</a>
+							<a href="">厨房配件</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_05.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">美食·民生</a>
+						</div>
+						<div class="kindsbot">
+							<a href="foodList.html">进口食品</a>
+							<a href="">营养保健</a>
+							<a href="">休闲食品</a>
+							<a href="">粮油干货</a>
+							<a href="">酒水茶饮</a>
+							<a href="">生鲜食品</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_07.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">健康生活</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">优质睡眠</a>
+							<a href="">收纳用品</a>
+							<a href="">生活用品</a>
+							<a href="">生活电器</a>
+							<a href="">装饰/家居</a>
+							<a href="">健身/户外</a>
+							<a href="">医疗器械</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_09.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">魅力穿戴</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">男装</a>
+							<a href="">女装</a>
+							<a href="">内衣</a>
+							<a href="">箱包</a>
+							<a href="">鞋子</a>
+							<a href="">配饰</a>
+							<a href="">户外鞋服</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_13.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">珠宝收藏</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">翡翠玉石</a>
+							<a href="">宝石珍珠</a>
+							<a href="">水晶玛瑙</a>
+							<a href="">时尚饰品</a>
+							<a href="">钟表</a>
+							<a href="">文化收藏</a>
+						</div>
+					</div>
+					<div class="kinds">
+						<div class="kinds_top">
+							<div class="stat">
+								<img src="../images/img/newsix_11.png" height="42" width="30" alt="" />
+							</div>
+							<a href="">美肤靓装</a>
+						</div>
+						<div class="kindsbot">
+							<a href="">面部护理</a>
+							<a href="">洗护护理</a>
+							<a href="">美容仪器</a>
+							<a href="">身体护理</a>
+							<a href="">钟彩妆香水</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航结束-->
+
+		<!--轮播图-->
+		<div class="swiper-container" id="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background: lavender;">
+					<img src="../images/luntu1.jpg" />
+				</div>
+				<div class="swiper-slide" style="background: lavenderblush;">
+					<img src="../images/luntu2.jpg" />
+				</div>
+				<div class="swiper-slide" style="background: lawngreen;">
+					<img src="../images/luntu3.jpg" />
+				</div>
+				<div class="swiper-slide" style="background: lemonchiffon;">
+					<img src="../images/luntu4.jpg" />
+				</div>
+				<div class="swiper-slide" style="background: lightcoral;">
+					<img src="../images/luntu5.jpg" />
+				</div>
+			</div>
+			<!--按钮-->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+			<!--分页-->
+			<div class="swiper-pagination"></div>
+		</div>
+		<!--轮播图结束-->
+
+		<!--展示区-->
+		<div id="webmain">
+			<div class="webz con">
+				<!--TBS直播头部-->
+				<div class="home_title">
+					<span class="fl">
+                        <i class="fl webz_title_line"></i>
+                        <span class="webz_title_tt"><i>TV</i>直播</span>上惠买APP,拼着买更便宜
+					</span>
+					<a href="https://www.ugoshop.com/tvList/" class="toTv fr"></a>
+				</div>
+				<!--TBS直播头部结束-->
+				<!--直播-->
+				<div class="tv_live">
+					<div class="tv_live_list">
+						<ul>
+							<li>
+								<div class="tv_class_cc">
+									<div class="live_cc_img">
+										<i class="live_ing">TV直播中</i>
+										<img class="live_logo" src="../images/img/u_shopping.png" height="60" width="200" alt="" />
+										<a href="###">
+											<img src="../images/tv_cc_img1.jpg" width="300px" height="160px" />
+										</a>
+										<div class="live_back" id="countdownTime">
+											<span>20:20:20</span>
+										</div>
+									</div>
+									<a href="###">
+										<p class="live_tit">
+											<em class="img_tit">ELLE碧色倾城奢华珠宝套组</em>
+										</p>
+										<div class="tv_live_box_yen">
+											<span class="fl tv_live_box_price"><i>¥</i>698</span>
+											<span class="fl tv_live_box_sale_price">
+	                            				<p class="i_pos_abs"></p>
+	                            				<span class="or_p line_price"><i>¥</i>998</span>
+											</span>
+										</div>
+									</a>
+								</div>
+
+								<div class="tv_class_cc">
+									<div class="live_cc_img">
+										<i class="live_ing">TV直播中</i>
+										<img class="live_logo" src="../images/img/u_shopping.png" height="60" width="200" alt="" />
+										<a href="###">
+											<img src="../images/tv_cc_2.jpg" width="300px" height="160px" />
+										</a>
+										<div class="live_back">
+											<span>20:20:20</span>
+										</div>
+									</div>
+									<a href="###">
+										<p class="live_tit">
+											<em class="img_tit">南极人卡洛兹贡缎大提花蕾丝套件</em>
+										</p>
+										<div class="tv_live_box_yen">
+											<span class="fl tv_live_box_price">
+												<i>¥</i>1688
+											</span>
+										</div>
+									</a>
+								</div>
+
+								<div class="tv_class_cc">
+									<div class="live_cc_img">
+										<i class="live_ing">TV直播中</i>
+										<img class="live_logo" src="../images/img/u_shopping.png" height="60" width="200" alt="" />
+										<a href="###">
+											<img src="../images/tv_cc_2.jpg" width="300px" height="160px" />
+										</a>
+										<div class="live_back">
+											<span>20:20:20</span>
+										</div>
+									</div>
+									<a href="###">
+										<p class="live_tit">
+											<em class="img_tit">南极人卡洛兹贡缎大提花蕾丝套件</em>
+										</p>
+										<div class="tv_live_box_yen">
+											<span class="fl tv_live_box_price">
+												<i>¥</i>1688
+											</span>
+										</div>
+									</a>
+								</div>
+
+							</li>
+						</ul>
+					</div>
+					<div class="t_prev"> </div>
+					<div class="t_next"></div>
+				</div>
+
+				<!-- 今日限时折扣 -->
+				<!--头部-->
+				<div class="home_title con">
+					<span class="fl">
+					 <i class="fl home_title_line"></i>
+                        <span class="home_title_tt">
+                        	<i>今日</i>
+                        	必抢
+                        </span>
+					</span>
+				</div>
+				<div class="index_line con">
+					<!--每日精选-->
+					<div class="daily fl">
+						<a href="###">
+							<div class="daily_shop rel">
+								<div class="shadow_lb"></div>
+								<div class="shadow_rt"></div>
+								<div class="everyday">
+									<i class="icon_clock"></i>每日一品
+								</div>
+								<div class="daily_shop_img">
+									<img src="../images/goods_midea.jpg">
+								</div>
+								<p class="daily_shop_tjs"></p>
+								<p class="daily_shop_tt">老板侧吸烟机黑洞旋吸品鉴套装</p>
+								<p class="daily_shop_box_yen">
+									<span class="fl daily_shop_box_price"><i>¥</i>5580</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<!--每日精选结束-->
+					<div class="tv_day_one fr" id="tv_day_one">
+						<div class="tv_day_one_list">
+							<ul>
+								<li>
+									<a href="###">
+										<div class="tv_day_one_cc">
+											<div class="tv_day_img_box">
+												<img src="../images/tv_day_img1.jpg" />
+											</div>
+											<p class="tv_live_box_tit c_clearfix">
+												<em class="img_tit">赛普瑞斯.先生黑骑士不粘锅具升级款</em>
+											</p>
+											<div class="tv_live_box_yen">
+												<span class="fl tv_live_box_price"><i>¥</i>999</span>
+											</div>
+											<div class="tv_day_one_yen">
+												<p class=" fr close_tip cor_red_ing">马上抢</p>
+											</div>
+										</div>
+									</a>
+									<a href="###">
+										<div class="tv_day_one_cc">
+											<div class="tv_day_img_box">
+												<img src="../images/tv_day_img1.jpg">
+											</div>
+											<p class="tv_live_box_tit c_clearfix">
+												<em class="img_tit">河南焦作&nbsp;&nbsp;温县铁棍山药8斤礼盒装
+										</em>
+											</p>
+											<div class="tv_live_box_yen">
+												<span class="fl tv_live_box_price"><i>¥</i>79</span>
+												<em class="line_price"><i>¥</i>109</em> </div>
+											<div class="tv_day_one_yen">
+												<p class=" fr close_tip cor_red_ing">马上抢</p>
+											</div>
+										</div>
+									</a>
+									<a href="###">
+										<div class="tv_day_one_cc">
+											<div class="tv_day_img_box">
+												<img src="../images/tv_day_img1.jpg" />
+											</div>
+											<p class="tv_live_box_tit c_clearfix"><em class="img_tit">欧力丝OLiSi女装简约优雅不挑身材V领舒适上衣·粉色</em></p>
+											<div class="tv_live_box_yen">
+												<span class="fl tv_live_box_price"><i>¥</i>159</span>
+												<em class="line_price"><i>¥</i>365</em> </div>
+											<div class="tv_day_one_yen">
+												<p class=" fr close_tip cor_red_ing">马上抢</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="###">
+										<div class="tv_day_one_cc">
+											<div class="tv_day_img_box">
+												<img src="../images/tv_day_img1.jpg" />
+											</div>
+											<p class="tv_live_box_tit c_clearfix">
+												<em class="img_tit">赛普瑞斯.先生黑骑士不粘锅具升级款</em>
+											</p>
+											<div class="tv_live_box_yen">
+												<span class="fl tv_live_box_price"><i>¥</i>999</span>
+											</div>
+											<div class="tv_day_one_yen">
+												<p class=" fr close_tip cor_red_ing">马上抢</p>
+											</div>
+										</div>
+									</a>
+									<a href="###">
+										<div class="tv_day_one_cc">
+											<div class="tv_day_img_box">
+												<img src="../images/tv_day_img1.jpg">
+											</div>
+											<p class="tv_live_box_tit c_clearfix">
+												<em class="img_tit">河南焦作&nbsp;&nbsp;温县铁棍山药8斤礼盒装
+										</em>
+											</p>
+											<div class="tv_live_box_yen">
+												<span class="fl tv_live_box_price"><i>¥</i>79</span>
+												<em class="line_price"><i>¥</i>109</em> </div>
+											<div class="tv_day_one_yen">
+												<p class=" fr close_tip cor_red_ing">马上抢</p>
+											</div>
+										</div>
+									</a>
+									<a href="###">
+										<div class="tv_day_one_cc">
+											<div class="tv_day_img_box">
+												<img src="../images/tv_day_img1.jpg" />
+											</div>
+											<p class="tv_live_box_tit c_clearfix"><em class="img_tit">欧力丝OLiSi女装简约优雅不挑身材V领舒适上衣·粉色</em></p>
+											<div class="tv_live_box_yen">
+												<span class="fl tv_live_box_price"><i>¥</i>159</span>
+												<em class="line_price"><i>¥</i>365</em> </div>
+											<div class="tv_day_one_yen">
+												<p class=" fr close_tip cor_red_ing">马上抢</p>
+											</div>
+										</div>
+									</a>
+									<a href="###">
+										<div class="tv_day_one_cc">
+											<div class="tv_day_img_box">
+												<img src="../images/tv_day_img1.jpg" />
+											</div>
+											<p class="tv_live_box_tit c_clearfix"><em class="img_tit">欧力丝OLiSi女装简约优雅不挑身材V领舒适上衣·粉色</em></p>
+											<div class="tv_live_box_yen">
+												<span class="fl tv_live_box_price"><i>¥</i>159</span>
+												<em class="line_price"><i>¥</i>365</em> </div>
+											<div class="tv_day_one_yen">
+												<p class=" fr close_tip cor_red_ing">马上抢</p>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!--按钮-->
+						<div class="d_prev"></div>
+						<div class="d_next"></div>
+					</div>
+					<!--每日精选结束-->
+				</div>
+				<!-- 今日限时折扣 结束-->
+				<!--全球尖货-->
+				<!--头部-->
+				<div class="home_title con">
+					<span class="fl">
+					 <i class="fl home_title_line"></i>
+                        <span class="home_title_tt">惠买优选</span>
+					</span>
+				</div>
+				<!--头部-->
+				<div class="three_col con">
+					<ul id="list">
+						< li>
+							<div class="three_box">
+								<a href="###">
+									<div class="three_img_box">
+										<i class="i_tv_icon"></i>
+										<img class="lazy-loading" src="../images/goods2.jpg" data-original="https://img.ugoshop.com/images/201703/1490142958750133449.jpg" alt="怀山堂 铁棍怀山粉健康·82条" title="惠买怀山堂 铁棍怀山粉健康·82条" style="display: block;">
+									</div>
+									<p class="three_box_tit">
+										<em class="img_tit">怀山堂 铁棍怀山粉健康·82条</em>
+									</p>
+									<p class="three_subtit">药食同源 健康选择</p>
+									<div class="three_yen">
+										<span class="fl three_price"><i>¥</i>238</span>
+										<span class="fl sale_price">
+		                                    <p class="i_pos_abs"></p>
+		                                    <span class="fl five_star mt5"></span>
+										<span class="or_p"></span>
+										<em class="line_price">¥298</em>
+										</span>
+										<span class="fr purchased"><i>26人</i>已购买</span>
+									</div>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--全球尖货-->
+			</div>
+		</div>
+		<!--展示区结束-->
+
+		<!--右边浮动-->
+		<div class="sidebar-out"></div>
+		<div class="sidebar">
+			<ul class="bar-top">
+				<li class="fly-user">
+					<div id="_AD_right_my" class="user-c">
+						<a class="a-user-c a-sidebar"></a>
+						<div class="sidebarcom-hover">
+							<a class="closex"></a>
+							<div class="slide-login" id="left_user_info">
+								<a href="javascript:void(0);" class="slide-pic"><img alt="" src="../images/img/72x72.jpg" width="72" height="72"></a>
+								<p class="slide-login-btn">你好！
+									<a rel="nofollow" href="login.html" id="denglu">登录</a>|
+									<a href="reg.html" rel="nofollow" id="zhuce">注册</a>
+								</p>
+							</div>
+							<p class="slide-login-go">
+								<a href="ShoppingCart.html" class="a-mydd">我的订单</a>
+								<a href="###" class="a-myyhq">优惠券</a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="fly-care">
+					<div class="care-c" id="_AD_right_care">
+						<a class="a-care-c  a-sidebar"></a>
+						<p class="slide-hui">
+							<a href="###">我的关注</a>
+						</p>
+					</div>
+				</li>
+			</ul>
+			<ul class="bar-bot">
+				<li class="fly-car">
+					<div class="car-c" id="_AD_right_feedback">
+						<a class="a-car-c a-sidebar"></a>
+						<p class="slide-huib">
+							<a href="###">购物车</a>
+						</p>
+					</div>
+				</li>
+				<li class="fly-code">
+					<div class="code-c">
+						<a class="a-code-c a-sidebar"></a>
+						<p class="code-pic">
+							<a href="###" target="_blank"><img alt="惠买手机APP" src="../images/img/code.jpg" width="132" height="182"></a>
+						</p>
+					</div>
+				</li>
+				<li class="fly-ask">
+					<div class="ask-c" id="_AD_right_feedback">
+						<a class="a-ask-c a-sidebar"></a>
+						<p class="slide-huib">
+							<a href="###">调查问卷</a>
+						</p>
+					</div>
+				</li>
+				<li class="fly-return">
+					<div class="return-c" id="_AD_right_top">
+						<a class="a-return-c a-sidebar"></a>
+						<p class="slide-hui">
+							<a>返回顶部</a>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--右边浮动结束-->
+
+		<!--尾部开始-->
+		<div class="footer">
+			<div class="footad">
+				<img src="../images/footer_ad.jpg" height="102" width="1000" alt="" />
+			</div>
+			<div class="con footer_flist">
+				<dl class="flistdl">
+					<dt>新手上路</dt>
+					<dd>
+						<a href="">新用户注册</a>
+					</dd>
+					<dd>
+						<a href="">忘记密码</a>
+					</dd>
+					<dd>
+						<a href="">购物流程</a>
+					</dd>
+				</dl>
+				<dl class="flistdl">
+					<dt>支付配送</dt>
+					<dd>
+						<a href="">货到付款</a>
+					</dd>
+					<dd>
+						<a href="">支付宝</a>
+					</dd>
+					<dd>
+						<a href="">配送方式</a>
+					</dd>
+				</dl>
+				<dl class="flistdl">
+					<dt>会员服务</dt>
+					<dd>
+						<a href="">服务承诺</a>
+					</dd>
+					<dd>
+						<a href="">会员制度</a>
+					</dd>
+					<dd>
+						<a href="">积分制度</a>
+					</dd>
+					<dd>
+						<a href="">退换货原则</a>
+					</dd>
+				</dl>
+				<dl class=" flistdl nob">
+					<dt>关于惠优品</dt>
+					<dd>
+						<a href="">企业介绍</a>
+					</dd>
+					<dd>
+						<a href="">联系我们</a>
+					</dd>
+					<dd>
+						<a href="">招商专区</a>
+					</dd>
+				</dl>
+				<dl class="flistdl2">
+					<dt class="fl">
+						<a target="_blank" href="###">
+							<img alt="" src="../images/foot_ewm.jpg" width="80" height="80">
+							<i class="font12">手机惠买</i>
+							<em class="font13">（优购物）</em>
+						</a>
+					</dt>
+					<dd class="fl f2f">
+						<img alt="" src="../images/foot_dh.jpg" width="149" height="38">
+					</dd>
+				</dl>
+			</div>
+
+			<div class="footerinfo">
+				<p class="footer-list">
+					<a target="_blank" href="###">首页</a> |
+					<a target="_blank">关于优品惠</a> |
+					<a target="_blank">优购物</a> |
+					<a target="_blank">联系我们</a> |
+					<a target="_blank">招贤纳士</a> |
+					<a target="_blank">招商专区</a> |
+					<a target="_blank">供应商入口</a> |
+					<a target="_blank">新人培训</a> |
+					<a target="_blank">友情链接</a> |
+					<a target="_blank">网站地图</a> |
+					<a target="_blank">资讯中心</a> |
+					<a target="_blank">评论</a> |
+					<a target="_blank"> 图片</a>
+				</p>
+				<div class="yqlink">
+					<p class="dlphh fl active">
+						<em>友情链接：</em>
+						<a target="_blank" href="###">配眼镜</a>
+						<a target="_blank" href="###">佐卡伊珠宝网</a>
+						<a target="_blank" href="###">腕表名表</a>
+						<a target="_blank" href="###">如何开网店</a>
+						<a target="_blank" href="###">免费试用</a>
+						<a target="_blank" href="###">钻戒网</a>
+					</p>
+					<div class="r_button fr">▲</div>
+				</div>
+				<p class="copyright">优品_惠买（优购物）全球优品特卖网站 专属于千万女性的优品特卖网站,优品_惠买（优购物）电视购物官方网站,100%正品保证 支持货到付款.</p>
+				<p class="copyright">Copyright©2007-2019 &nbsp; 公司名称:北京惠买网络科技有限公司 &nbsp; 公司地址:北京市北京经济技术开发区同济南路19号7幢2层C区 服务热线：400-707-0707</p>
+				<p class="footer-list copyright"> 统一社会信用代码:91110302339739621C &nbsp; ICP备案号:京ICP备15039150号-1 &nbsp; 食品流通许可证编号:JY11131010332635 &nbsp;
+					<a href="###" target="_blank">营业执照</a>
+					<a href="###" target="_blank">京网文(2017)10902-1271</a>
+					<a href="###" target="_blank">增值业务经营许可证：京B2-20181380 </a>
+				</p>
+				<div style="margin:0 auto;text-align:center;">
+					<a target="_blank" href="###" style="display:inline-block;text-decoration:none;height:22px;line-height:22px;">
+						<img src="../images/bei.png" style="float:left;">
+						<p style="float:left;margin: 0px 0px 0px 5px; color:#555; font-size: 12px; font-weight: 400;">京公网安备 11030102010023号</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--尾部结束-->
+
+	</body>
+
+</html>

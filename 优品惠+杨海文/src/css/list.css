@@ -1,0 +1,268 @@
+.classify {
+  width: 100%;
+  height: 100%;
+  background: #efefef;
+  color: #333333; }
+  .classify .classify-con {
+    width: 968px;
+    margin: 0 auto; }
+    .classify .classify-con .classify-menu {
+      background: #FFF; }
+    .classify .classify-con .border1 {
+      border: 1px solid #ededed;
+      border-top-color: #ededed;
+      border-top-style: solid;
+      border-top-width: 1px;
+      border-top: none;
+      width: 966px;
+      overflow: hidden;
+      height: 86px; }
+      .classify .classify-con .border1 .menu-list {
+        width: 104%; }
+        .classify .classify-con .border1 .menu-list .listthemone {
+          height: 75px;
+          width: 80px;
+          margin-right: 28px; }
+          .classify .classify-con .border1 .menu-list .listthemone .menu-icon {
+            width: 80px;
+            height: 60px;
+            position: relative;
+            z-index: 1; }
+            .classify .classify-con .border1 .menu-list .listthemone .menu-icon a {
+              text-decoration: none;
+              color: #222;
+              outline: none; }
+            .classify .classify-con .border1 .menu-list .listthemone .menu-icon .iconimghover {
+              position: absolute;
+              left: 0;
+              top: 0;
+              z-index: 1;
+              display: none; }
+          .classify .classify-con .border1 .menu-list .listthemone .menuname {
+            height: 15px;
+            width: 80px;
+            overflow: hidden;
+            text-align: center;
+            font-size: 14px;
+            line-height: 1; }
+            .classify .classify-con .border1 .menu-list .listthemone .menuname .hovercolor {
+              color: #eb0007; }
+  .classify .classify-list .list-title {
+    height: 34px;
+    margin: 26px 0 17px; }
+    .classify .classify-list .list-title .classify-tittle {
+      height: 28px;
+      margin-top: 6px;
+      overflow: hidden;
+      line-height: 0.99;
+      margin-left: 8px; }
+      .classify .classify-list .list-title .classify-tittle .category {
+        color: #333333;
+        font-size: 26px;
+        font-weight: bold; }
+  .classify .classify-list .list-con {
+    margin-top: 10px;
+    position: relative;
+    z-index: 5; }
+    .classify .classify-list .list-con .good-list {
+      width: 968px; }
+      .classify .classify-list .list-con .good-list .good-list-nav {
+        height: 56px; }
+        .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l {
+          width: 500px;
+          margin-left: 10px; }
+          .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l ul {
+            height: 20px;
+            margin-top: 22px; }
+            .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l ul li {
+              height: 28px;
+              float: left;
+              padding: 0px 8px;
+              font-size: 12px;
+              cursor: pointer;
+              text-align: center;
+              color: #333333; }
+          .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l li:hover,
+          .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l .paipai {
+            background: url(img/jian.png) center 17px no-repeat;
+            color: #FFF;
+            display: block;
+            line-height: 18px; }
+            .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l li:hover span,
+            .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l .paipai span {
+              background: #00bfcf; }
+            .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l li:hover .jg_pai,
+            .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l .paipai .jg_pai {
+              background: url(../images/img/classify.png) no-repeat;
+              background-position: -51px -304px; }
+            .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l li:hover .jg_pai2,
+            .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l .paipai .jg_pai2 {
+              background: url(../img/classify.png) no-repeat;
+              background-position: 3px -304px; }
+          .classify .classify-list .list-con .good-list .good-list-nav .list_nav_l .jg_pai {
+            background: url(../images/img/classify.png) no-repeat;
+            background-position: 44px -329px;
+            display: inline-block;
+            width: 51px; }
+        .classify .classify-list .list-con .good-list .good-list-nav .nav-filter {
+          margin-top: 22px;
+          height: 13px;
+          line-height: 10px;
+          padding-right: 10px;
+          font-size: 12px; }
+          .classify .classify-list .list-con .good-list .good-list-nav .nav-filter .ugozy {
+            margin-right: 18px; }
+            .classify .classify-list .list-con .good-list .good-list-nav .nav-filter .ugozy .nav-filter input {
+              margin-right: 5px; }
+      .classify .classify-list .list-con .good-list #flist_t {
+        background: #efefef;
+        height: auto; }
+      .classify .classify-list .list-con .good-list .flist_t {
+        position: relative;
+        height: auto;
+        width: 1000px; }
+        .classify .classify-list .list-con .good-list .flist_t .goods {
+          position: relative;
+          z-index: 1;
+          float: left;
+          width: 314px;
+          height: 425px;
+          margin: 1px;
+          border: 1px solid #d6d6d6;
+          margin-right: 13px;
+          margin-bottom: 20px; }
+          .classify .classify-list .list-con .good-list .flist_t .goods .goods_img {
+            width: 312px;
+            height: 312px;
+            display: block;
+            border-bottom: 1px solid #f1f1f1; }
+          .classify .classify-list .list-con .good-list .flist_t .goods .goods_name {
+            display: block;
+            height: 52px;
+            font-size: 16px;
+            overflow: hidden;
+            line-height: 26px;
+            padding: 12px 16px 0;
+            background: #FAFAFA; }
+          .classify .classify-list .list-con .good-list .flist_t .goods .qian_comment {
+            padding: 12px 16px 0;
+            height: 34px;
+            background: #FAFAFA; }
+            .classify .classify-list .list-con .good-list .flist_t .goods .qian_comment .goods_qian {
+              font: 500 22px Arial;
+              line-height: 1;
+              margin-right: 10px; }
+            .classify .classify-list .list-con .good-list .flist_t .goods .qian_comment .goods_comment {
+              font-size: 12px;
+              height: 12px;
+              line-height: 12px;
+              margin-top: 12px; }
+              .classify .classify-list .list-con .good-list .flist_t .goods .qian_comment .goods_comment a {
+                color: #00aebd; }
+        .classify .classify-list .list-con .good-list .flist_t .ping {
+          background: red;
+          width: 314px;
+          position: absolute;
+          border-left: 2px solid #d6d6d6;
+          border-right: 2px solid #d6d6d6;
+          height: 0px;
+          border-top: 1px solid #e5e5e5;
+          background: #fafafa;
+          line-height: 34px;
+          transition: height 0.5s;
+          top: 423px;
+          left: -2px;
+          z-index: 9;
+          overflow: hidden; }
+          .classify .classify-list .list-con .good-list .flist_t .ping > div:nth-child(1) {
+            border-right: 1px solid #e5e5e5;
+            width: 130px;
+            height: 26px;
+            overflow: hidden;
+            padding-left: 6px;
+            padding-top: 8px; }
+            .classify .classify-list .list-con .good-list .flist_t .ping > div:nth-child(1) span {
+              display: block;
+              font-size: 12px;
+              margin-left: 10px;
+              height: 17px;
+              line-height: 17px;
+              text-align: center;
+              color: #FFF;
+              width: 58px;
+              background: #00bfcf; }
+          .classify .classify-list .list-con .good-list .flist_t .ping > div:nth-child(2) {
+            width: 60px;
+            padding-left: 26px;
+            font-size: 12px;
+            height: 34px;
+            overflow: hidden; }
+          .classify .classify-list .list-con .good-list .flist_t .ping input {
+            height: 30px;
+            width: 80px;
+            margin-left: 10px;
+            background: #F08080;
+            color: #ccc; }
+          .classify .classify-list .list-con .good-list .flist_t .ping input:hover {
+            background: #F32727;
+            color: white;
+            cursor: pointer;
+            color: white; }
+          .classify .classify-list .list-con .good-list .flist_t .ping .pingjia {
+            clear: both;
+            height: 56px;
+            background: #fff1e7;
+            border-top: 1px solid #e5e5e5;
+            padding-left: 24px; }
+            .classify .classify-list .list-con .good-list .flist_t .ping .pingjia p {
+              font-weight: 700;
+              height: 24px;
+              color: #6c6c6c;
+              font-size: 14px; }
+        .classify .classify-list .list-con .good-list .flist_t .goods:hover {
+          margin: 0px;
+          border: 2px solid #fa531b;
+          margin-right: 12px;
+          margin-bottom: 19px;
+          z-index: 99; }
+          .classify .classify-list .list-con .good-list .flist_t .goods:hover .ping {
+            height: 93px;
+            border-bottom: 2px solid #fa531b;
+            border-left: 2px solid #fa531b;
+            border-right: 2px solid #fa531b; }
+      .classify .classify-list .list-con .good-list #flist_t:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+      .classify .classify-list .list-con .good-list .page {
+        padding: 30px;
+        display: block;
+        width: 600px; }
+        .classify .classify-list .list-con .good-list .page span {
+          display: block;
+          width: 30px;
+          height: 30px;
+          background: #d8d8d8;
+          text-align: center;
+          line-height: 30px;
+          float: left;
+          margin-left: 20px;
+          cursor: pointer; }
+        .classify .classify-list .list-con .good-list .page .active {
+          background: lightcoral;
+          color: #fff; }
+      .classify .classify-list .list-con .good-list .next a {
+        display: inline-block;
+        margin-right: 5px;
+        border: 1px solid #C5C5C5;
+        display: inline-block;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background: #FFF;
+        cursor: pointer;
+        float: right; }
+
+/*# sourceMappingURL=list.css.map */

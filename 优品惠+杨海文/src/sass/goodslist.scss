@@ -1,0 +1,476 @@
+    body {
+        font-size: 12px;
+        height: 100%;
+        background: white;
+    }
+    
+    .main_main {
+        height: 100%;
+        .sh-crumbs {
+            padding: 20px 0;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e8e8e8;
+            font-weight: 400;
+            font-size: 12px;
+            a {
+                font-size: 12px;
+                font-weight: 400;
+                color: #222;
+            }
+            code {
+                display: inline-block;
+                padding: 0 3px;
+            }
+        }
+        .sh-goods-key {
+            margin-bottom: 30px;
+            display: block;
+            .goodshare {
+                margin-top: 20px;
+                .huohao {
+                    color: #adadad;
+                    font-size: 12px;
+                }
+                .share {
+                    //          position: absolute;
+                    //          left: 234px;
+                    font-size: 12px;
+                    span {
+                        //              float: right;
+                        padding: 0 15px;
+                    }
+                    i {
+                        display: block;
+                        position: absolute;
+                        width: 13px;
+                        height: 13px;
+                    }
+                    i:nth-child(1) {
+                        background: url(../images/img/key_icon.png);
+                        background-position: -72px -289px;
+                        top: 515px;
+                        right: 115px;
+                    }
+                    i:nth-child(3) {
+                        background: url(../images/img/key_icon.png);
+                        background-position: -100px -270px;
+                        top: 516px;
+                        right: 60px;
+                    }
+                }
+            }
+            .goods-parameters {
+                float: right;
+                position: relative;
+                width: 570px;
+                //      z-index: 99;
+                //      background: pink;
+                .brand {
+                    padding-left: 10px;
+                    margin-bottom: 5px;
+                    .country-brand {
+                        display: block;
+                        height: 27px;
+                        line-height: 27px;
+                        color: #666;
+                        a {
+                            color: #666;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .title {
+                    margin-bottom: 10px;
+                    width: 420px;
+                    color: #222;
+                    font-size: 18px;
+                    line-height: 22px;
+                    font-weight: 600;
+                }
+                .description {
+                    margin-bottom: 10px;
+                    color: #666;
+                    font-size: 12px;
+                }
+                .price-box {
+                    position: relative;
+                    padding: 15px 10px 10px 10px;
+                    margin-bottom: 15px;
+                    border: 1px dotted #e8e8e8;
+                    background-color: #fafafa;
+                    .mb {
+                        margin-bottom: 5px;
+                        color: #666;
+                        font-size: 12px;
+                        .label {
+                            width: 40px;
+                            vertical-align: top;
+                            display: inline-block;
+                        }
+                        .price-label {
+                            margin-top: 15px;
+                            display: inline-block;
+                        }
+                        .price {
+                            color: #f70800;
+                            font-size: 34px;
+                            margin-right: 7px;
+                        }
+                    }
+                    .yh {
+                        margin: 0;
+                        padding: 0;
+                        color: #666;
+                        display: inline-block;
+                        font-size: 12px;
+                        p {
+                            margin: 0 0 5px 0px;
+                            padding: 0;
+                            .tag {
+                                margin-left: 14px;
+                                max-width: 350px;
+                                vertical-align: text-top;
+                                padding: 1px 8px;
+                                margin-right: 5px;
+                                -webkit-border-radius: 2px;
+                                border-radius: 2px;
+                                background-color: #ff504a;
+                                color: #fff;
+                                text-align: center;
+                            }
+                            span {
+                                max-width: 350px;
+                                vertical-align: text-top;
+                            }
+                        }
+                    }
+                }
+                .address {
+                    position: relative;
+                    padding: 15px 10px 10px 10px;
+                    margin-bottom: 15px;
+                    max-width: 400px;
+                    input {
+                        margin-top: 30px;
+                        width: 400px;
+                        height: 50px;
+                        border: 1px solid #000000;
+                    }
+                }
+                .quantity {
+                    position: relative;
+                    padding: 15px 10px 10px 10px;
+                    margin-bottom: 15px;
+                    max-width: 400px;
+                    .box {
+                        margin-right: 10px;
+                        border: 1px solid #ccc;
+                        width: 111px;
+                        height: 26px;
+                        line-height: 26px;
+                        position: relative;
+                        z-index: 1;
+                        margin-left: 9px;
+                        a {
+                            display: inline-block;
+                            width: 26px;
+                            height: 26px;
+                            text-align: center;
+                        }
+                        input {
+                            border-top: none;
+                            border-bottom: none;
+                            border-left: 1px solid #ccc;
+                            border-right: 1px solid #ccc;
+                            width: 48px;
+                            height: 26px;
+                            line-height: 26px;
+                            text-align: center;
+                            color: #222;
+                            position: relative;
+                            top: -2px;
+                        }
+                    }
+                }
+                .addCart {
+                    clear: both;
+                    background-color: #ff3d36;
+                    position: relative;
+                    top: 20px;
+                    border: none;
+                    color: #fff;
+                    width: 190px;
+                    padding-left: 25px;
+                    height: 44px;
+                    line-height: 44px;
+                    font-size: 14px;
+                    -webkit-border-radius: 2px;
+                    border-radius: 2px;
+                    cursor: pointer;
+                    text-align: center;
+                    margin-left: 10px;
+                    i {
+                        display: block;
+                        position: absolute;
+                        top: 15px;
+                        left: 45px;
+                        width: 20px;
+                        height: 16px;
+                        background: url(../images/img/key_icon.png) no-repeat;
+                        background-position: -72px -309px;
+                    }
+                }
+            }
+        }
+        .sh-goods-declaration {
+            margin-bottom: 20px;
+            img {
+                width: 1000px;
+                height: 80px;
+                overflow: hidden;
+                position: relative;
+                top: 20px;
+            }
+        }
+        .sh-goods-details {
+            position: relative;
+            display: block;
+            .group {
+                //              background: pink;
+                float: left;
+                width: 790px;
+                margin-right: 20px;
+                margin-top: 20px;
+                .related {
+                    margin-bottom: 20px;
+                    width: 788px;
+                    border: 1px solid #e8e8e8;
+                    .tab {
+                        height: 43px;
+                        border-bottom: 1px solid #e8e8e8;
+                        background-color: #f5f5f5;
+                        line-height: 43px;
+                        .tab-select {
+                            float: left;
+                            width: 480px;
+                            margin: 0;
+                            padding: 0;
+                            a {
+                                display: block;
+                                float: left;
+                                width: 159px;
+                                border-right: 1px solid #e8e8e8;
+                                text-align: center;
+                                font-size: 14px;
+                                color: #222;
+                            }
+                            .active {
+                                position: relative;
+                                background-color: #fff;
+                                color: #F70800;
+                                font-weight: bold;
+                                border-top: 2px solid #F70800;
+                                margin-top: -3px;
+                                top: 2px;
+                            }
+                        }
+                    }
+                    .details {
+                        padding: 50px 0 0 0px;
+                        width: 732px;
+                        margin: 0 auto;
+                        .title {
+                            width: 732px;
+                            height: 26px;
+                            margin-bottom: 20px;
+                            background: url(../images/title_bg.png) no-repeat;
+                        }
+                    }
+                    .comment {
+                        .title {
+                            width: 732px;
+                            height: 26px;
+                            margin-bottom: 20px;
+                            background: url(../images/title_bg.png) 0 -30px no-repeat;
+                        }
+                        .comment-box {
+                            border: 1px solid #e8e8e8;
+                            width: 728px;
+                            .inner-header {
+                                padding: 0 20px 0 20px;
+                                height: 34px;
+                                line-height: 34px;
+                                border-bottom: 1px solid #e8e8e8;
+                                background-color: #f5f5f5;
+                                .select-comment {
+                                    float: left;
+                                    padding-left: 15px;
+                                    li {
+                                        float: left;
+                                        margin-right: 44px;
+                                        cursor: pointer;
+                                        .custom-radio {
+                                            position: relative;
+                                            input {
+                                                position: absolute;
+                                                top: 10px;
+                                                left: -15px;
+                                            }
+                                            label {
+                                                margin-left: 5px;
+                                                cursor: pointer;
+                                                display: block;
+                                                i {
+                                                    background-position: -100px -225px;
+                                                    position: absolute;
+                                                    left: -15px;
+                                                    top: 9px;
+                                                    display: inline-block;
+                                                    width: 14px;
+                                                    height: 14px
+                                                }
+                                                span {
+                                                    text-align: right;
+                                                    display: inline-block;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .show-pic {
+                                    .custom-checkbox {
+                                        position: relative;
+                                        input {
+                                            position: absolute;
+                                            left: -18px;
+                                            top: 10px;
+                                        }
+                                        label {
+                                            display: block;
+                                            cursor: pointer;
+                                            i {
+                                                position: absolute;
+                                                left: -18px;
+                                                top: 10px;
+                                                display: inline-block;
+                                                width: 14px;
+                                                height: 14px;
+                                                background-position: -72px -247px;
+                                            }
+                                            span {
+                                                display: inline-block;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .comment-list-box {
+                                padding: 0 20px;
+                                .comment-list {
+                                    li {
+                                        border-top: 1px dotted #e8e8e8;
+                                        padding: 30px 0;
+                                        .descrption {
+                                            position: relative;
+                                            width: 350px;
+                                            margin-right: 70px;
+                                            .text {
+                                                margin-bottom: 5px;
+                                                color: #444;
+                                                line-height: 20px;
+                                            }
+                                            ul {
+                                                margin-bottom: 5px;
+                                                li {
+                                                    position: relative;
+                                                    float: left;
+                                                    margin-right: 10px;
+                                                    border: 1px solid #e8e8e8;
+                                                    padding: 3px;
+                                                    width: 52px;
+                                                    height: 52px;
+                                                    img {
+                                                        display: block;
+                                                        width: 52px;
+                                                        height: 52px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .attr {
+                                            width: 120px;
+                                            margin-right: 40px;
+                                        }
+                                        .author {
+                                            width: 100px;
+                                            float: left;
+                                            span {
+                                                display: inline-block;
+                                                width: 63px;
+                                                vertical-align: top;
+                                            }
+                                            .comment-star-5 {
+                                                background-position: 0 -304px;
+                                            }
+                                            .comment-star {
+                                                display: block;
+                                                width: 57px;
+                                                height: 11px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .page {
+                                float: right;
+                                margin-top: 10px;
+                                margin-right: -8px;
+                                .text {
+                                    width: 80px;
+                                }
+                                a {
+                                    float: left;
+                                    margin-right: 10px;
+                                    text-align: center;
+                                    border: 1px solid #e8e8e8;
+                                    width: 22px;
+                                    height: 22px;
+                                    line-height: 22px;
+                                    color: #666;
+                                    .code-r {
+                                        margin-right: 5px;
+                                    }
+                                }
+                                .cuurent {
+                                    background-color: #FF504A;
+                                    border-color: #FF504A;
+                                    color: #fff;
+                                }
+                                .p_num {
+                                    float: left;
+                                    margin-right: 10px;
+                                    text-align: center;
+                                    border: 1px solid #e8e8e8;
+                                    width: 22px;
+                                    height: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                    .service {
+                        padding: 50px 0 0 0px;
+                        width: 732px;
+                        margin: 0 auto;
+                        .title {
+                            width: 732px;
+                            height: 26px;
+                            margin-bottom: 20px;
+                            background: url(../images/title_bg.png) 0 -60px no-repeat;
+                        }
+                    }
+                }
+            }
+        }
+    }

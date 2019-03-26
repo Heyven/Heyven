@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页</title>
+		<script src="../lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/comm.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css" />
+		<link rel="stylesheet" type="text/css" href="../css/homemian.css" />
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+	</head>
+
+	<body>
+		<!--顶部菜单-->
+		<div id="header">
+			<div class="nav_top con">
+				<div class="notice_scroll">
+					<span>公告&nbsp;:</span>
+					<ul class="show_notic">
+						<li>
+							<a>【紧急通知】关于短信发送异常的公告</a>
+						</li>
+						<li>
+							<a>【公告】防诈骗提醒</a>
+						</li>
+						<li>
+							<a>【紧急通知】关于短信发送异常的公告</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="denglu">
+					<li>
+						<span>
+							<a class='zhucel' href="###">注册</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a class='denglul' href="###">登录</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">我的订单</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">我的关注</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">资讯</a>
+						</span> |
+					</li>
+					<li>
+						<span>
+							<a href="javascript:void(0)">品牌馆</a>
+						</span> |
+					</li>
+					<li class="yg_phone">
+						<span class="phone_in">
+							<a href="javascript:void(0);" id="_AD_head_app">
+								<i class="t">
+									<img src="../images/img/phone.png"  alt="手机惠买" title="惠买手机客户端二维码" width="9" height="12"/>
+								</i>
+								手机惠买
+							</a>
+						</span>
+						<div class="down_app">
+							<i class="t"></i>
+							<em class="sjx"></em>
+							<div class="app_erm">
+								<a href="javascript:void(0);">
+									<img alt="" title="" src="https://www.ugoshop.com/themes/ugo/images/2015/2015_public/ewm90X90.jpg" width="90" height="90">
+								</a>
+								<p>
+									<a href="javascript:void(0);">扫一扫哦~</a>
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部菜单结束-->
+
+		<!-- 登陆主体开始 -->
+		<div class="con">
+			<div class="reg_lg2">
+				<a href=""></a>
+				<span></span>
+			</div>
+			<div class="reg_til">
+				<p class="fr logti">如有疑问请点击
+					<a href="">帮助中心</a>，或拨打客服热线：<span>400-707-0707</span></p>
+			</div>
+			<!-- 内框开始 -->
+			<div class="land land2">
+				<span>手机号/用户名:</span>
+				<div class="d_username">
+					<input class="username" type="text" id="J_iptUsername"/>
+					<i class="ik1"></i>
+				</div>
+				<p class="s0"></p>
+				<span>密码:</span>
+				<div class="d_log_pws">
+					<input class="log_pws" type="password" id="J_iptPasswd"/>
+					<i class="ik2"></i>
+				</div>
+				<p class="s1"></p>
+				<input type="checkbox" /><span>记住用户名</span>
+				<a href="" class="wangle">忘记密码？</a>
+				<div class="land_item" id="xianshi">
+					<span>验证码</span>
+					<div id="testnum" class="item-ifo yz3 clearfix">
+						<input type="text" class="yhm_text1 fl  text3" id="verify" style="border-color: rgb(162, 162, 162)">
+						<canvas width="100" height="40" id="verifyCanvas" style="display: none;"></canvas>
+						<img id="code_img" class="r_imgCaptcha" style="height: 30px; margin-top: 5px;"">
+					</div>
+				</div>
+
+				<div class="log_sit" id="log_sit"></div>
+
+				<div class="login_tips">
+					<p>温馨提示：</p>
+					优品惠升级为电视购物大全，其中收录了优购物、时尚购物等多家优质购物频道，您可以选购更多优质商品，欢迎您的光临！
+				</div>
+				<div class="feng">
+					<div class="land_item3">
+						<span>您还不是优品惠的会员？</span>
+						<a href="reg.html">免费注册 &gt;</a>
+					</div>
+					<div class="land_item3">
+						<span>电话订购过优品惠商品？</span>
+						<a href="activeuser.php" target="_blank">快速激活 &gt;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 登陆主体开始 -->
+
+		<!--尾部开始-->
+		<div class="footer">
+			<div class="footad">
+				<img src="../images/footer_ad.jpg" height="102" width="1000" alt="" />
+			</div>
+			<div class="con footer_flist">
+				<dl class="flistdl">
+					<dt>新手上路</dt>
+					<dd>
+						<a href="">新用户注册</a>
+					</dd>
+					<dd>
+						<a href="">忘记密码</a>
+					</dd>
+					<dd>
+						<a href="">购物流程</a>
+					</dd>
+				</dl>
+				<dl class="flistdl">
+					<dt>支付配送</dt>
+					<dd>
+						<a href="">货到付款</a>
+					</dd>
+					<dd>
+						<a href="">支付宝</a>
+					</dd>
+					<dd>
+						<a href="">配送方式</a>
+					</dd>
+				</dl>
+				<dl class="flistdl">
+					<dt>会员服务</dt>
+					<dd>
+						<a href="">服务承诺</a>
+					</dd>
+					<dd>
+						<a href="">会员制度</a>
+					</dd>
+					<dd>
+						<a href="">积分制度</a>
+					</dd>
+					<dd>
+						<a href="">退换货原则</a>
+					</dd>
+				</dl>
+				<dl class=" flistdl nob">
+					<dt>关于惠优品</dt>
+					<dd>
+						<a href="">企业介绍</a>
+					</dd>
+					<dd>
+						<a href="">联系我们</a>
+					</dd>
+					<dd>
+						<a href="">招商专区</a>
+					</dd>
+				</dl>
+				<dl class="flistdl2">
+					<dt class="fl">
+						<a target="_blank" href="###">
+							<img alt="" src="../images/foot_ewm.jpg" width="80" height="80">
+							<i class="font12">手机惠买</i>
+							<em class="font13">（优购物）</em>
+						</a>
+					</dt>
+					<dd class="fl f2f">
+						<img alt="" src="../images/foot_dh.jpg" width="149" height="38">
+					</dd>
+				</dl>
+			</div>
+
+			<div class="footerinfo">
+				<p class="footer-list">
+					<a target="_blank" href="###">首页</a> |
+					<a target="_blank">关于优品惠</a> |
+					<a target="_blank">优购物</a> |
+					<a target="_blank">联系我们</a> |
+					<a target="_blank">招贤纳士</a> |
+					<a target="_blank">招商专区</a> |
+					<a target="_blank">供应商入口</a> |
+					<a target="_blank">新人培训</a> |
+					<a target="_blank">友情链接</a> |
+					<a target="_blank">网站地图</a> |
+					<a target="_blank">资讯中心</a> |
+					<a target="_blank">评论</a> |
+					<a target="_blank"> 图片</a>
+				</p>
+				<div class="yqlink">
+					<p class="dlphh fl active">
+						<em>友情链接：</em>
+						<a target="_blank" href="###">配眼镜</a>
+						<a target="_blank" href="###">佐卡伊珠宝网</a>
+						<a target="_blank" href="###">腕表名表</a>
+						<a target="_blank" href="###">如何开网店</a>
+						<a target="_blank" href="###">免费试用</a>
+						<a target="_blank" href="###">钻戒网</a>
+					</p>
+					<div class="r_button fr">▲</div>
+				</div>
+				<p class="copyright">优品_惠买（优购物）全球优品特卖网站 专属于千万女性的优品特卖网站,优品_惠买（优购物）电视购物官方网站,100%正品保证 支持货到付款.</p>
+				<p class="copyright">Copyright©2007-2019 &nbsp; 公司名称:北京惠买网络科技有限公司 &nbsp; 公司地址:北京市北京经济技术开发区同济南路19号7幢2层C区 服务热线：400-707-0707</p>
+				<p class="footer-list copyright"> 统一社会信用代码:91110302339739621C &nbsp; ICP备案号:京ICP备15039150号-1 &nbsp; 食品流通许可证编号:JY11131010332635 &nbsp;
+					<a href="###" target="_blank">营业执照</a>
+					<a href="###" target="_blank">京网文(2017)10902-1271</a>
+					<a href="###" target="_blank">增值业务经营许可证：京B2-20181380 </a>
+				</p>
+				<div style="margin:0 auto;text-align:center;">
+					<a target="_blank" href="###" style="display:inline-block;text-decoration:none;height:22px;line-height:22px;">
+						<img src="../images/bei.png" style="float:left;">
+						<p style="float:left;margin: 0px 0px 0px 5px; color:#555; font-size: 12px; font-weight: 400;">京公网安备 11030102010023号</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--尾部结束-->
+	</body>
+
+</html>

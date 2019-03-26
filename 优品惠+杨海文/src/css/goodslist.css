@@ -1,0 +1,384 @@
+body {
+  font-size: 12px;
+  height: 100%;
+  background: white; }
+
+.main_main {
+  height: 100%; }
+  .main_main .sh-crumbs {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: 400;
+    font-size: 12px; }
+    .main_main .sh-crumbs a {
+      font-size: 12px;
+      font-weight: 400;
+      color: #222; }
+    .main_main .sh-crumbs code {
+      display: inline-block;
+      padding: 0 3px; }
+  .main_main .sh-goods-key {
+    margin-bottom: 30px;
+    display: block; }
+    .main_main .sh-goods-key .goodshare {
+      margin-top: 20px; }
+      .main_main .sh-goods-key .goodshare .huohao {
+        color: #adadad;
+        font-size: 12px; }
+      .main_main .sh-goods-key .goodshare .share {
+        font-size: 12px; }
+        .main_main .sh-goods-key .goodshare .share span {
+          padding: 0 15px; }
+        .main_main .sh-goods-key .goodshare .share i {
+          display: block;
+          position: absolute;
+          width: 13px;
+          height: 13px; }
+        .main_main .sh-goods-key .goodshare .share i:nth-child(1) {
+          background: url(../images/img/key_icon.png);
+          background-position: -72px -289px;
+          top: 515px;
+          right: 115px; }
+        .main_main .sh-goods-key .goodshare .share i:nth-child(3) {
+          background: url(../images/img/key_icon.png);
+          background-position: -100px -270px;
+          top: 516px;
+          right: 60px; }
+    .main_main .sh-goods-key .goods-parameters {
+      float: right;
+      position: relative;
+      width: 570px; }
+      .main_main .sh-goods-key .goods-parameters .brand {
+        padding-left: 10px;
+        margin-bottom: 5px; }
+        .main_main .sh-goods-key .goods-parameters .brand .country-brand {
+          display: block;
+          height: 27px;
+          line-height: 27px;
+          color: #666; }
+          .main_main .sh-goods-key .goods-parameters .brand .country-brand a {
+            color: #666;
+            font-size: 12px; }
+      .main_main .sh-goods-key .goods-parameters .title {
+        margin-bottom: 10px;
+        width: 420px;
+        color: #222;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600; }
+      .main_main .sh-goods-key .goods-parameters .description {
+        margin-bottom: 10px;
+        color: #666;
+        font-size: 12px; }
+      .main_main .sh-goods-key .goods-parameters .price-box {
+        position: relative;
+        padding: 15px 10px 10px 10px;
+        margin-bottom: 15px;
+        border: 1px dotted #e8e8e8;
+        background-color: #fafafa; }
+        .main_main .sh-goods-key .goods-parameters .price-box .mb {
+          margin-bottom: 5px;
+          color: #666;
+          font-size: 12px; }
+          .main_main .sh-goods-key .goods-parameters .price-box .mb .label {
+            width: 40px;
+            vertical-align: top;
+            display: inline-block; }
+          .main_main .sh-goods-key .goods-parameters .price-box .mb .price-label {
+            margin-top: 15px;
+            display: inline-block; }
+          .main_main .sh-goods-key .goods-parameters .price-box .mb .price {
+            color: #f70800;
+            font-size: 34px;
+            margin-right: 7px; }
+        .main_main .sh-goods-key .goods-parameters .price-box .yh {
+          margin: 0;
+          padding: 0;
+          color: #666;
+          display: inline-block;
+          font-size: 12px; }
+          .main_main .sh-goods-key .goods-parameters .price-box .yh p {
+            margin: 0 0 5px 0px;
+            padding: 0; }
+            .main_main .sh-goods-key .goods-parameters .price-box .yh p .tag {
+              margin-left: 14px;
+              max-width: 350px;
+              vertical-align: text-top;
+              padding: 1px 8px;
+              margin-right: 5px;
+              -webkit-border-radius: 2px;
+              border-radius: 2px;
+              background-color: #ff504a;
+              color: #fff;
+              text-align: center; }
+            .main_main .sh-goods-key .goods-parameters .price-box .yh p span {
+              max-width: 350px;
+              vertical-align: text-top; }
+      .main_main .sh-goods-key .goods-parameters .address {
+        position: relative;
+        padding: 15px 10px 10px 10px;
+        margin-bottom: 15px;
+        max-width: 400px; }
+        .main_main .sh-goods-key .goods-parameters .address input {
+          margin-top: 30px;
+          width: 400px;
+          height: 50px;
+          border: 1px solid #000000; }
+      .main_main .sh-goods-key .goods-parameters .quantity {
+        position: relative;
+        padding: 15px 10px 10px 10px;
+        margin-bottom: 15px;
+        max-width: 400px; }
+        .main_main .sh-goods-key .goods-parameters .quantity .box {
+          margin-right: 10px;
+          border: 1px solid #ccc;
+          width: 111px;
+          height: 26px;
+          line-height: 26px;
+          position: relative;
+          z-index: 1;
+          margin-left: 9px; }
+          .main_main .sh-goods-key .goods-parameters .quantity .box a {
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            text-align: center; }
+          .main_main .sh-goods-key .goods-parameters .quantity .box input {
+            border-top: none;
+            border-bottom: none;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            width: 48px;
+            height: 26px;
+            line-height: 26px;
+            text-align: center;
+            color: #222;
+            position: relative;
+            top: -2px; }
+      .main_main .sh-goods-key .goods-parameters .addCart {
+        clear: both;
+        background-color: #ff3d36;
+        position: relative;
+        top: 20px;
+        border: none;
+        color: #fff;
+        width: 190px;
+        padding-left: 25px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 14px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 10px; }
+        .main_main .sh-goods-key .goods-parameters .addCart i {
+          display: block;
+          position: absolute;
+          top: 15px;
+          left: 45px;
+          width: 20px;
+          height: 16px;
+          background: url(../images/img/key_icon.png) no-repeat;
+          background-position: -72px -309px; }
+  .main_main .sh-goods-declaration {
+    margin-bottom: 20px; }
+    .main_main .sh-goods-declaration img {
+      width: 1000px;
+      height: 80px;
+      overflow: hidden;
+      position: relative;
+      top: 20px; }
+  .main_main .sh-goods-details {
+    position: relative;
+    display: block; }
+    .main_main .sh-goods-details .group {
+      float: left;
+      width: 790px;
+      margin-right: 20px;
+      margin-top: 20px; }
+      .main_main .sh-goods-details .group .related {
+        margin-bottom: 20px;
+        width: 788px;
+        border: 1px solid #e8e8e8; }
+        .main_main .sh-goods-details .group .related .tab {
+          height: 43px;
+          border-bottom: 1px solid #e8e8e8;
+          background-color: #f5f5f5;
+          line-height: 43px; }
+          .main_main .sh-goods-details .group .related .tab .tab-select {
+            float: left;
+            width: 480px;
+            margin: 0;
+            padding: 0; }
+            .main_main .sh-goods-details .group .related .tab .tab-select a {
+              display: block;
+              float: left;
+              width: 159px;
+              border-right: 1px solid #e8e8e8;
+              text-align: center;
+              font-size: 14px;
+              color: #222; }
+            .main_main .sh-goods-details .group .related .tab .tab-select .active {
+              position: relative;
+              background-color: #fff;
+              color: #F70800;
+              font-weight: bold;
+              border-top: 2px solid #F70800;
+              margin-top: -3px;
+              top: 2px; }
+        .main_main .sh-goods-details .group .related .details {
+          padding: 50px 0 0 0px;
+          width: 732px;
+          margin: 0 auto; }
+          .main_main .sh-goods-details .group .related .details .title {
+            width: 732px;
+            height: 26px;
+            margin-bottom: 20px;
+            background: url(../images/title_bg.png) no-repeat; }
+        .main_main .sh-goods-details .group .related .comment .title {
+          width: 732px;
+          height: 26px;
+          margin-bottom: 20px;
+          background: url(../images/title_bg.png) 0 -30px no-repeat; }
+        .main_main .sh-goods-details .group .related .comment .comment-box {
+          border: 1px solid #e8e8e8;
+          width: 728px; }
+          .main_main .sh-goods-details .group .related .comment .comment-box .inner-header {
+            padding: 0 20px 0 20px;
+            height: 34px;
+            line-height: 34px;
+            border-bottom: 1px solid #e8e8e8;
+            background-color: #f5f5f5; }
+            .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .select-comment {
+              float: left;
+              padding-left: 15px; }
+              .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .select-comment li {
+                float: left;
+                margin-right: 44px;
+                cursor: pointer; }
+                .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .select-comment li .custom-radio {
+                  position: relative; }
+                  .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .select-comment li .custom-radio input {
+                    position: absolute;
+                    top: 10px;
+                    left: -15px; }
+                  .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .select-comment li .custom-radio label {
+                    margin-left: 5px;
+                    cursor: pointer;
+                    display: block; }
+                    .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .select-comment li .custom-radio label i {
+                      background-position: -100px -225px;
+                      position: absolute;
+                      left: -15px;
+                      top: 9px;
+                      display: inline-block;
+                      width: 14px;
+                      height: 14px; }
+                    .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .select-comment li .custom-radio label span {
+                      text-align: right;
+                      display: inline-block; }
+            .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .show-pic .custom-checkbox {
+              position: relative; }
+              .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .show-pic .custom-checkbox input {
+                position: absolute;
+                left: -18px;
+                top: 10px; }
+              .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .show-pic .custom-checkbox label {
+                display: block;
+                cursor: pointer; }
+                .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .show-pic .custom-checkbox label i {
+                  position: absolute;
+                  left: -18px;
+                  top: 10px;
+                  display: inline-block;
+                  width: 14px;
+                  height: 14px;
+                  background-position: -72px -247px; }
+                .main_main .sh-goods-details .group .related .comment .comment-box .inner-header .show-pic .custom-checkbox label span {
+                  display: inline-block;
+                  cursor: pointer; }
+          .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box {
+            padding: 0 20px; }
+            .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li {
+              border-top: 1px dotted #e8e8e8;
+              padding: 30px 0; }
+              .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .descrption {
+                position: relative;
+                width: 350px;
+                margin-right: 70px; }
+                .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .descrption .text {
+                  margin-bottom: 5px;
+                  color: #444;
+                  line-height: 20px; }
+                .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .descrption ul {
+                  margin-bottom: 5px; }
+                  .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .descrption ul li {
+                    position: relative;
+                    float: left;
+                    margin-right: 10px;
+                    border: 1px solid #e8e8e8;
+                    padding: 3px;
+                    width: 52px;
+                    height: 52px; }
+                    .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .descrption ul li img {
+                      display: block;
+                      width: 52px;
+                      height: 52px; }
+              .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .attr {
+                width: 120px;
+                margin-right: 40px; }
+              .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .author {
+                width: 100px;
+                float: left; }
+                .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .author span {
+                  display: inline-block;
+                  width: 63px;
+                  vertical-align: top; }
+                .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .author .comment-star-5 {
+                  background-position: 0 -304px; }
+                .main_main .sh-goods-details .group .related .comment .comment-box .comment-list-box .comment-list li .author .comment-star {
+                  display: block;
+                  width: 57px;
+                  height: 11px; }
+          .main_main .sh-goods-details .group .related .comment .comment-box .page {
+            float: right;
+            margin-top: 10px;
+            margin-right: -8px; }
+            .main_main .sh-goods-details .group .related .comment .comment-box .page .text {
+              width: 80px; }
+            .main_main .sh-goods-details .group .related .comment .comment-box .page a {
+              float: left;
+              margin-right: 10px;
+              text-align: center;
+              border: 1px solid #e8e8e8;
+              width: 22px;
+              height: 22px;
+              line-height: 22px;
+              color: #666; }
+              .main_main .sh-goods-details .group .related .comment .comment-box .page a .code-r {
+                margin-right: 5px; }
+            .main_main .sh-goods-details .group .related .comment .comment-box .page .cuurent {
+              background-color: #FF504A;
+              border-color: #FF504A;
+              color: #fff; }
+            .main_main .sh-goods-details .group .related .comment .comment-box .page .p_num {
+              float: left;
+              margin-right: 10px;
+              text-align: center;
+              border: 1px solid #e8e8e8;
+              width: 22px;
+              height: 22px;
+              line-height: 22px; }
+        .main_main .sh-goods-details .group .related .service {
+          padding: 50px 0 0 0px;
+          width: 732px;
+          margin: 0 auto; }
+          .main_main .sh-goods-details .group .related .service .title {
+            width: 732px;
+            height: 26px;
+            margin-bottom: 20px;
+            background: url(../images/title_bg.png) 0 -60px no-repeat; }
+
+/*# sourceMappingURL=goodslist.css.map */
